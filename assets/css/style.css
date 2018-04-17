@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.service-box-bg-1 {background-image: url(..//image/img-1.jpg); background-position:center; background-size:cover;}
+.service-box-bg-2{background-image: url(../image/img-2.jpg); background-position:center; background-size:cover;}
+.service-box-bg-3{background-image: url(../image/img-3.jpg); background-position:center; background-size:cover;}
+
+.section-padding {
+    padding: 80px ;
+}
+
+.section-heading {
+    text-align:  center;
+    padding-bottom: 70px;
+}
+
+.section-heading h2 {
+    text-transform:  uppercase;
+    font-weight:  700;
+}
+
+.section-heading p {
+    font-size: 17px;
+    color:  #333333;
+}
+
+.service-box-bg {
+    height: 300px;
+    width: 100%;
+    background-color:  #ddd;
+    position:  relative;
+}
+
+.single-service-box {
+    border: 1px solid #E4E4E4;
+    text-align:  center;
+}
+
+
+.service-box-bg h4 {
+    background:  #FA7B26;
+    color:  #fff;
+    font-weight: 700;
+    font-size:  25px;
+    margin:  0;
+    position:  absolute;
+    left: 8%;
+    width:  84%;
+    padding:  10px;
+    border-radius: 3px;
+    bottom: -24px;
+}
+
+.service-content {
+    padding: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+a.read-more {
+    color:  #333;
+    font-size:  18px;
+    display:  inline-block;
+    font-weight: 600;
+    margin-bottom:  20px;
+}
+
+
+
+
+
+
+
